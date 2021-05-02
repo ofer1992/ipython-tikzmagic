@@ -186,7 +186,7 @@ class TikzMagics(Magics):
         help='Pixel size of plots, "width,height". Default is "--size 400,240".'
         )
     @argument(
-        '-f', '--format', action='store', type=str, default='png',
+        '-f', '--format', action='store', type=str, default='svg',
         help='Plot format (png, svg or jpg).'
         )
     @argument(
